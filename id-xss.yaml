@@ -30,9 +30,8 @@ requests:
     matchers:
       - type: word
         words:
-          - "Nomad"
-          - "nomad-ui"
-        condition: and
+          - "document.cookie"
+        part: body
 
       - type: word
         words:
